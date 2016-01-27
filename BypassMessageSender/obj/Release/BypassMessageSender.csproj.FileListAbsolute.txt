@@ -1,0 +1,8 @@
+C:\Users\Demian\Documents\Visual Studio 2015\Projects\BypassMessageSender\BypassMessageSender\bin\Release\BypassMessageSender.exe.config
+C:\Users\Demian\Documents\Visual Studio 2015\Projects\BypassMessageSender\BypassMessageSender\bin\Release\BypassMessageSender.exe
+C:\Users\Demian\Documents\Visual Studio 2015\Projects\BypassMessageSender\BypassMessageSender\bin\Release\BypassMessageSender.pdb
+C:\Users\Demian\Documents\Visual Studio 2015\Projects\BypassMessageSender\BypassMessageSender\obj\Release\BypassMessageSender.BypassMessageSender.resources
+C:\Users\Demian\Documents\Visual Studio 2015\Projects\BypassMessageSender\BypassMessageSender\obj\Release\BypassMessageSender.Properties.Resources.resources
+C:\Users\Demian\Documents\Visual Studio 2015\Projects\BypassMessageSender\BypassMessageSender\obj\Release\BypassMessageSender.csproj.GenerateResource.Cache
+C:\Users\Demian\Documents\Visual Studio 2015\Projects\BypassMessageSender\BypassMessageSender\obj\Release\BypassMessageSender.exe
+C:\Users\Demian\Documents\Visual Studio 2015\Projects\BypassMessageSender\BypassMessageSender\obj\Release\BypassMessageSender.pdb
