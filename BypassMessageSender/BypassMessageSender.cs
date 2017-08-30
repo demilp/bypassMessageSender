@@ -57,14 +57,37 @@ namespace BypassMessageSender
                     client.SendData(textBoxData.Text, textBoxTag.Text, ids);
                     break;
             }
-            
+        }
 
-            
-            
-            
-            
-            
+        private void BypassMessageSender_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            client.Close();
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string[] ids = textBoxIds.Text.Split(',');
+            switch (comboBoxType.SelectedIndex)
+            {
+                case 0:
+                    client.SendData(textBoxData2.Text, textBoxTag.Text, ids);
+                    break;
+                case 1:
+                    client.Register(textBoxData2.Text, textBoxTag.Text);
+                    break;
+                case 2:
+                    client.Broadcast(textBoxData2.Text);
+                    break;
+                case 3:
+                    client.BroadcastAll(textBoxData2.Text);
+                    break;
+                case 4:
+                    client.SendCommand("{\"type\":\"needSender\", \"data\":\"" + textBoxData2.Text + "\", \"tag\":\"\"}");
+                    break;
+                default:
+                    client.SendData(textBoxData2.Text, textBoxTag.Text, ids);
+                    break;
+            }
         }
     }
 }

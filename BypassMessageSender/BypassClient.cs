@@ -403,17 +403,19 @@ namespace Bypass
 			//Debug.Log ("Connected");
 			streamWriter = new StreamWriter(socket.GetStream());
 		}
-		public void Close()
-		{
-			if (socket != null)
-			{
+        public void Close()
+        {
+            if (socket != null)
+            {
                 run = false;
-				socket.Close();
-			}
-			
-		}
-		
-	}
+                socket.Close();
+            }
+            if (timer != null)
+                timer.Dispose();
+            runThread.Abort();
+        }
+
+    }
 
 	public class CommandEventArgs : EventArgs
 	{
